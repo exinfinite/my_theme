@@ -1,0 +1,6 @@
+@layer components {
+    .btn {
+        color: red;
+        @apply px-2;
+    }
+}
