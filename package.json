@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "使用tailwind.css自訂樣式設定",
   "scripts": {
-    "build": "set NODE_ENV=production&&npx tailwindcss-cli@latest build -o ./dist/tailwind.css",
-    "production": "set NODE_ENV=production&&postcss ./entry.css -o ./dist/theme.min.css",
+    "cli-build": "set NODE_ENV=production&&npx tailwindcss-cli@latest build -o ./dist/tailwind.css",
+    "postcss-build": "set NODE_ENV=production&&postcss ./entry.css -o ./dist/theme.min.css",
     "release": "standard-version --header=\"# Changelog \"",
     "release-first": "npm run release -- --first-release",
     "test": "echo \"Error: no test specified\" && exit 1"
