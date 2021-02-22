@@ -1,11 +1,13 @@
-## 由 tailwind.config.js 產出
+# 建構方式
+
+## 使用 tailwindcss cli
 
 ```js
 npm run build
 //output：./dist/tailwind.css
 ```
 
-## 使用 entry.css 和 postcss.config.js 產出
+## 使用 postcss
 
 ```js
 npm run production
