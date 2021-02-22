@@ -1,5 +1,3 @@
-# my_theme
-
 ## 由 tailwind.config.js 產出
 
 ```js
