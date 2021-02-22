@@ -1,5 +1,5 @@
 {
-  "name": "my_theme",
+  "name": "utility-style",
   "version": "1.0.0",
   "description": "使用tailwind.css自訂樣式設定",
   "scripts": {
