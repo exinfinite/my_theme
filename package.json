@@ -1,6 +1,6 @@
 {
   "name": "utility-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "使用tailwind.css自訂樣式設定",
   "scripts": {
     "cli-build": "set NODE_ENV=production&&npx tailwindcss-cli@latest build -o ./dist/tailwind.css",
